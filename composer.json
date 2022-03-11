@@ -1,0 +1,45 @@
+{
+    "name": "lava/wechatpay",
+    "version": "1.0.0",
+    "description": "[A]Sync Chainable WeChatPay v2&v3's OpenAPI SDK for PHP",
+    "type": "library",
+    "keywords": [
+        "wechatpay",
+        "openapi-chainable",
+        "xml-parser",
+        "xml-builder",
+        "aes-ecb",
+        "aes-gcm",
+        "rsa-oaep"
+    ],
+    "authors": [
+        {
+            "name": "XueSi",
+            "homepage": "https://github.com/XueSiLf"
+        },
+        {
+            "name": "WeChatPay Community",
+            "homepage": "https://developers.weixin.qq.com/community/pay"
+        }
+    ],
+    "homepage": "https://pay.weixin.qq.com/",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.3.0",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "ext-openssl": "*",
+        "psr/http-message": "^1.0.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Lava\\WeChatPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lava\\WeChatPay\\Tests\\": "tests/"
+        }
+    }
+}
